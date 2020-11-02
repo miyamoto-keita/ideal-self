@@ -57,3 +57,7 @@ gem 'pry-rails'
 gem 'jquery-rails'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
+
+group :production do
+  gem 'rails_12factor'
+end
