@@ -50,15 +50,17 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-  <div class="picture carousel-inner">
+  <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/assets/img6.jpg" class="d-block w-100" alt="...">
+    <div class="picture1 d-block w-100"></div>
+    <%= image_tag 'img6.jpg', class:"picture1"%>
+      <%# <img src="/assets/img6.jpg" class="d-block w-100" alt="..."> %>
       <div class="carousel-caption d-none d-md-block">
         <h5>筋トレ</h5>
     </div>
     </div>
     <div class="picture carousel-item">
-      <img src="/assets/img7.jpg" class="d-block w-100" alt="...">
+       <img src="/assets/img7.jpg" class="d-block w-100" alt="..."> %>
       <div class="carousel-caption d-none d-md-block">
         <h5>早起き</h5>
     </div>
