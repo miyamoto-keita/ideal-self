@@ -57,6 +57,7 @@ gem 'pry-rails'
 gem 'jquery-rails'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
+gem 'devise'
 
 group :production do
   gem 'rails_12factor'
